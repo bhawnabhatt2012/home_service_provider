@@ -1,0 +1,292 @@
+body{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+.list-horizontal{
+	margin-top: 60px;
+   color: red;
+   font-family: sans-serif;
+   font-size: 20px;
+   padding-top: 0px;
+   padding: 15px;
+   background-color: #ccc;
+   color: black;
+}
+
+ul{
+	margin: 10px;
+	padding: 10px;
+	list-style-type: none;
+}
+ul li{
+	
+	float: left;
+	color: white;
+	width: 140px;
+	height: 40px;
+	opacity:.7;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+ul li a:hover{
+	background-color: green;
+
+}
+
+ul li ul li{
+	display: none;
+}
+ul li:hover ul li {
+	display: block;
+	opacity: .9;
+}
+
+.health{
+
+	background-image: url("healthcare1.jpg");
+	background-size: cover;
+	height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	opacity: 1;
+}
+.health h2{
+	opacity: 1;
+	font-family: sans-serif;
+	font-size: 50px;
+	padding-top: 50px;
+	font-weight: 80px;
+	color: black;
+}
+.health p{
+	opacity: 1;
+	margin-top: 20px;
+	font-family: sans-serif;
+	font-size: 30px;
+	padding: 30px;
+	font-weight: 50px;
+}
+.homecleaning{
+    background-image: url("cleaning.jpg");
+	background-size: cover;
+	height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	opacity: 0.9;
+}
+.homecleaning h2{
+	opacity: 1;
+	font-family: sans-serif;
+	font-size: 50px;
+	padding-top: 50px;
+	font-weight: 80px;
+	color: black;
+}
+.homecleaning p{
+	opacity: 1;
+	margin-top: 20px;
+	font-family: sans-serif;
+	font-size: 30px;
+	padding: 30px;
+	font-weight: 50px;
+}
+
+.catering{
+	opacity: 0.9;
+    background-image: url("catering.jpg");
+	background-size: cover;
+	height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.catering h2{
+	opacity: 1;
+	font-family: sans-serif;
+	font-size: 50px;
+	padding-top: 50px;
+	font-weight: 80px;
+	color: black;
+}
+.catering p{
+	opacity: 1;
+	margin-top: 20px;
+	font-family: sans-serif;
+	font-size: 30px;
+	padding: 30px;
+	font-weight: 50px;
+}
+.basicneeds{
+	opacity: 0.9;
+	background-image: url("grocery.jpg");
+	background-size: cover;
+	height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.basicneeds h2{
+	opacity: 1;
+	font-family: sans-serif;
+	font-size: 50px;
+	padding-top: 50px;
+	font-weight: 80px;
+	color: black;
+}
+.basicneeds p{
+	opacity: 1;
+	margin-top: 20px;
+	font-family: sans-serif;
+	font-size: 30px;
+	padding: 30px;
+	font-weight: 50px;
+}
+.repairs{
+	opacity: 0.9;
+	background-image: url("repairs.jpg");
+	background-size: cover;
+	height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.repairs h2{
+	opacity: 1;
+	font-family: sans-serif;
+	font-size: 50px;
+	padding-top: 50px;
+	font-weight: 80px;
+	color: black;
+}
+.repairs p{
+	opacity: 1;
+	margin-top: 20px;
+	font-family: sans-serif;
+	font-size: 30px;
+	padding: 30px;
+	font-weight: 50px;
+}
+.personals{
+	opacity: 0.9;
+	background-image: url("personal.jpg");
+	background-size: cover;
+	height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.personals h2{
+	opacity: 1;
+	font-family: sans-serif;
+	font-size: 50px;
+	padding-top: 50px;
+	font-weight: 80px;
+	color: black;
+}
+.personals p{
+	opacity: 1;
+	margin-top: 20px;
+	font-family: sans-serif;
+	font-size: 30px;
+	padding: 30px;
+	font-weight: 50px;
+}
+.packers{
+	opacity: 0.9;
+    background-image: url("packers.jpg");
+	background-size: cover;
+	height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;	
+}
+.packers h2{
+	opacity: 1;
+	font-family: sans-serif;
+	font-size: 50px;
+	padding-top: 50px;
+	font-weight: 80px;
+	color: black;
+}
+.packers p{
+	opacity: 1;
+	margin-top: 20px;
+	font-family: sans-serif;
+	font-size: 30px;
+	padding: 30px;
+	font-weight: 50px;
+}
+.security{
+	opacity: 0.9;
+	background-image: url("security.jpg");
+	background-size: cover;
+	height: 600px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.security h2{
+	opacity: 1;
+	font-family: sans-serif;
+	font-size: 50px;
+	padding-top: 50px;
+	font-weight: 80px;
+	color: black;
+}
+.security p{
+	opacity: 1;
+	margin-top: 20px;
+	font-family: sans-serif;
+	font-size: 30px;
+	padding: 30px;
+	font-weight: 50px;
+}
+.emergency{
+	opacity: 0.9; 
+	background-image: url("emergency.jpg");
+	background-size: cover;
+	height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.emergency h2{
+	opacity: 1;
+	font-family: sans-serif;
+	font-size: 50px;
+	padding-top: 50px;
+	font-weight: 80px;
+	color: black;
+}
+.emergency p{
+	opacity: 1;
+	margin-top: 20px;
+	font-family: sans-serif;
+	font-size: 30px;
+	padding: 30px;
+	font-weight: 50px;
+}
+.btn{
+	float:right;
+	font-family: sans-serif;
+}
+
+.btn button{
+   padding:3px;
+   height: 70px;
+   width: 200px;
+   border-radius: 10px;
+   float: right;
+   font-size:20px;
+   background: #50555B;
+   font-style: bold; 
+}
+.footer {
+               left: 0;
+               bottom: 0;
+               width: 100%;
+                height: 50px;
+               background-color:grey;
+               color: white;
+               text-align: center;
+            }

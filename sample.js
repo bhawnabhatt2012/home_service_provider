@@ -1,0 +1,82 @@
+$(document).ready(function(){
+    var tags=[
+      "Home Cleaning",
+        "Home Deep Cleaning",
+        "Kitchen Deep Cleaning",
+        "Bathroom Deep Cleaning",
+        "Sofa Cleaning",
+        "Commercial Pest Control",
+        "Chimney Cleaning",
+        "Carpet Cleaning",
+        "Health Care",
+        "Dentist",
+        "Dietician",
+        "ENT Specialist",
+        "Neurologist",
+        "General Physician",
+        "Paeditrician",
+        "Psychologists",
+        "Security Services",
+        "CCTV Cameras",
+        "Security Guards",
+        "Security Lock System",
+        "Walkie Talkie",
+        "Hire Detectives",
+        "Repair",
+        "AC Services and Repair",
+        "iPhone,iPad,Mac Repair",
+        "Geyser/Water Heater Repair",
+        "Laptop Repair",
+        "Microwave Repair",
+        "Refrigerator Repair",
+        "RO/Water Purifier Repair",
+        "Catering Services",
+        "Office Caterers",
+        "Birthday Party Caterers",
+        "Wedding Caterers",
+        "Only veg",
+        "Emergency Services",
+        "Blood Banks",
+        "Ambulances",
+        "Duplicate Key Stores",
+        "Fire Brigades",
+        "Towing Services",
+        "Cardiologists",
+        "24-Hour Chemists",
+        "Basic Amenities",
+        "Grocery",
+        "Bakery",
+        "Cakes and Desserts",
+        "Ice Creams",
+        "Dairy Products",
+        "Personal Care",
+        "Tutor",
+        "Counsellor",
+        "Lawyer",
+        "Photographer",
+        "Passport Agent",
+        "Insurance Agent",
+        "Laundry and Dry Cleaners",
+        "Painters",
+        "Roofing",
+        "Tiles",
+        "Wall Cladding",
+        "Packers and Movers",
+        "Business and Industrial Goods",
+        "Junk Transporters",
+        "Vehicle Transporters",
+        "Antique and Special Care Items",
+        "Plants and heavy equipments",
+        "Household Goods"
+    ];
+    $(".dropdown-menu a").click(function(){
+    var selText = $(this).text();
+    var icon="<img src='location.png'>";
+    console.log(selText);
+    $("#select_location").html(selText+icon);
+    });
+    
+    $("#services").autocomplete({
+        source:tags
+    });
+});

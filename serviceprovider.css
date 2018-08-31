@@ -1,0 +1,40 @@
+body{
+    background: url(loginbg.jpg);
+    background-size: cover;
+}
+.container{
+    width: inherit;
+    height: inherit;
+}
+.login-form{
+    width:500px;
+    height:400px;
+    background-color: white;
+    margin: auto;
+}
+.title{
+    width:200px;
+    height: 80px;
+    padding:10px;
+    margin: auto;
+    font-family: sans-serif;
+    text-align: center;
+    font-size:30px;
+    font-weight: bold;
+}
+.form-details{
+    margin: auto;
+    text-align: center;
+}
+.form-details table td{
+    padding:10px;
+    font-weight: bold
+}
+input[type="text"]{
+    width:200px;
+    border-radius: 8px;
+}
+input[type="password"]{
+    width:200px;
+    border-radius: 8px;
+}
